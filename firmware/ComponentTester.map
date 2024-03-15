@@ -1,0 +1,1232 @@
+Archive member included to satisfy reference by file (symbol)
+
+/usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_exit.o)
+                              /usr/lib/gcc/avr/10.2.0/../../../../avr/lib/avr5/crtatmega328.o (exit)
+/usr/lib/gcc/avr/10.2.0/../../../../avr/lib/avr5/libc.a(ultoa_ncheck.o)
+                              display.o (symbol from plugin) (__ultoa_ncheck)
+/usr/lib/gcc/avr/10.2.0/../../../../avr/lib/avr5/libc.a(utoa_ncheck.o)
+                              display.o (symbol from plugin) (__utoa_ncheck)
+/usr/lib/gcc/avr/10.2.0/../../../../avr/lib/avr5/libc.a(strrev.o)
+                              /usr/lib/gcc/avr/10.2.0/../../../../avr/lib/avr5/libc.a(ultoa_ncheck.o) (strrev)
+/usr/lib/gcc/avr/10.2.0/../../../../avr/lib/avr5/libatmega328.a(eerd_block.o)
+                              adjust.o (symbol from plugin) (eeprom_read_block)
+/usr/lib/gcc/avr/10.2.0/../../../../avr/lib/avr5/libatmega328.a(eerd_byte.o)
+                              probes.o (symbol from plugin) (eeprom_read_byte)
+/usr/lib/gcc/avr/10.2.0/../../../../avr/lib/avr5/libatmega328.a(eerd_word.o)
+                              user.o (symbol from plugin) (eeprom_read_word)
+/usr/lib/gcc/avr/10.2.0/../../../../avr/lib/avr5/libatmega328.a(eewr_block.o)
+                              adjust.o (symbol from plugin) (eeprom_write_block)
+/usr/lib/gcc/avr/10.2.0/../../../../avr/lib/avr5/libatmega328.a(eewr_byte.o)
+                              /usr/lib/gcc/avr/10.2.0/../../../../avr/lib/avr5/libatmega328.a(eewr_block.o) (eeprom_write_r18)
+/usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_mulsi3.o)
+                              /tmp/ComponentTester.obNEMA.ltrans0.ltrans.o (__mulsi3)
+/usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_udivmodqi4.o)
+                              /tmp/ComponentTester.obNEMA.ltrans0.ltrans.o (__udivmodqi4)
+/usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_divmodqi4.o)
+                              /tmp/ComponentTester.obNEMA.ltrans0.ltrans.o (__divmodqi4)
+/usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_udivmodhi4.o)
+                              /tmp/ComponentTester.obNEMA.ltrans0.ltrans.o (__udivmodhi4)
+/usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_divmodhi4.o)
+                              /tmp/ComponentTester.obNEMA.ltrans0.ltrans.o (__divmodhi4)
+/usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_udivmodsi4.o)
+                              /tmp/ComponentTester.obNEMA.ltrans0.ltrans.o (__udivmodsi4)
+/usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_divmodsi4.o)
+                              /tmp/ComponentTester.obNEMA.ltrans0.ltrans.o (__divmodsi4)
+/usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_negsi2.o)
+                              /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_divmodsi4.o) (__negsi2)
+/usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_tablejump2.o)
+                              /tmp/ComponentTester.obNEMA.ltrans0.ltrans.o (__tablejump2__)
+/usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_copy_data.o)
+                              /tmp/ComponentTester.obNEMA.ltrans0.ltrans.o (__do_copy_data)
+/usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_clear_bss.o)
+                              /tmp/ComponentTester.obNEMA.ltrans0.ltrans.o (__do_clear_bss)
+/usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_umulhisi3.o)
+                              /tmp/ComponentTester.obNEMA.ltrans0.ltrans.o (__umulhisi3)
+/usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_usmulhisi3.o)
+                              /tmp/ComponentTester.obNEMA.ltrans0.ltrans.o (__usmulhisi3)
+/usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_muluhisi3.o)
+                              /tmp/ComponentTester.obNEMA.ltrans0.ltrans.o (__muluhisi3)
+/usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_prologue.o)
+                              /tmp/ComponentTester.obNEMA.ltrans0.ltrans.o (__prologue_saves__)
+/usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_epilogue.o)
+                              /tmp/ComponentTester.obNEMA.ltrans0.ltrans.o (__epilogue_restores__)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x0000000000000000 0x0000000000020000 xr
+data             0x0000000000800060 0x000000000000ffa0 rw !x
+eeprom           0x0000000000810000 0x0000000000010000 rw !x
+fuse             0x0000000000820000 0x0000000000000400 rw !x
+lock             0x0000000000830000 0x0000000000000400 rw !x
+signature        0x0000000000840000 0x0000000000000400 rw !x
+user_signatures  0x0000000000850000 0x0000000000000400 rw !x
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD /usr/lib/gcc/avr/10.2.0/../../../../avr/lib/avr5/crtatmega328.o
+LOAD main.o
+LOAD /tmp/ComponentTester.obNEMA.ltrans0.ltrans.o
+LOAD /tmp/ccgfKHpI.debug.temp.o
+LOAD /tmp/cchiBHmh.debug.temp.o
+LOAD /tmp/ccKbknfC.debug.temp.o
+LOAD /tmp/ccLFgDKJ.debug.temp.o
+LOAD /tmp/ccJmmeHp.debug.temp.o
+LOAD /tmp/ccjkMlCM.debug.temp.o
+LOAD /tmp/ccIMGIia.debug.temp.o
+LOAD /tmp/ccIILkaM.debug.temp.o
+LOAD /tmp/ccdKompk.debug.temp.o
+LOAD /tmp/ccCMFJnI.debug.temp.o
+LOAD /tmp/cclNhMGf.debug.temp.o
+LOAD /tmp/ccDoCJpc.debug.temp.o
+LOAD /tmp/ccbpibaG.debug.temp.o
+LOAD /tmp/ccEdmBNo.debug.temp.o
+LOAD /tmp/ccemlNcn.debug.temp.o
+LOAD /tmp/ccfGLiAo.debug.temp.o
+LOAD /tmp/ccEcjHim.debug.temp.o
+LOAD /tmp/ccmpEBik.debug.temp.o
+LOAD /tmp/ccGKonKN.debug.temp.o
+LOAD /tmp/ccBPKkFg.debug.temp.o
+LOAD /tmp/cceGdLhA.debug.temp.o
+LOAD /tmp/cchObkbM.debug.temp.o
+LOAD /tmp/ccmboOCO.debug.temp.o
+LOAD /tmp/ccoLCmcM.debug.temp.o
+LOAD /tmp/ccjEknom.debug.temp.o
+LOAD /tmp/ccmmlIAM.debug.temp.o
+LOAD /tmp/ccjaEMEO.debug.temp.o
+LOAD /tmp/ccgOebmm.debug.temp.o
+LOAD /tmp/ccbfcciP.debug.temp.o
+LOAD /tmp/ccOFCgMb.debug.temp.o
+LOAD /tmp/ccKpJfGj.debug.temp.o
+LOAD /tmp/ccdCMcHn.debug.temp.o
+LOAD /tmp/ccGhiBEK.debug.temp.o
+LOAD /tmp/ccahIpGP.debug.temp.o
+LOAD /tmp/ccFCMdGb.debug.temp.o
+LOAD /tmp/ccJIACnj.debug.temp.o
+LOAD /tmp/ccdJpBCh.debug.temp.o
+LOAD /tmp/ccHPAdPj.debug.temp.o
+LOAD /tmp/ccnCjKCJ.debug.temp.o
+LOAD /tmp/ccKAKNLO.debug.temp.o
+LOAD /tmp/ccdomJem.debug.temp.o
+LOAD /tmp/ccAnaMDE.debug.temp.o
+LOAD /tmp/ccagIfMJ.debug.temp.o
+LOAD /tmp/cchLfNnA.debug.temp.o
+LOAD user.o
+LOAD pause.o
+LOAD adjust.o
+LOAD ADC.o
+LOAD probes.o
+LOAD display.o
+LOAD resistor.o
+LOAD cap.o
+LOAD semi.o
+LOAD inductor.o
+LOAD tools_misc.o
+LOAD tools_signal.o
+LOAD tools_counter.o
+LOAD tools_LC_Meter.o
+LOAD SPI.o
+LOAD I2C.o
+LOAD serial.o
+LOAD commands.o
+LOAD OneWire.o
+LOAD IR_RX.o
+LOAD IR_TX.o
+LOAD DHTxx.o
+LOAD ADS7843.o
+LOAD MAX6675.o
+LOAD MAX31855.o
+LOAD HD44780.o
+LOAD ILI9163.o
+LOAD ILI9341.o
+LOAD ILI9481.o
+LOAD ILI9486.o
+LOAD ILI9488.o
+LOAD PCD8544.o
+LOAD PCF8814.o
+LOAD SH1106.o
+LOAD SSD1306.o
+LOAD ST7036.o
+LOAD ST7565R.o
+LOAD ST7735.o
+LOAD Semi_ST7735.o
+LOAD ST7920.o
+LOAD STE2007.o
+LOAD VT100.o
+LOAD RD_Display.o
+LOAD wait.o
+START GROUP
+LOAD /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a
+LOAD /usr/lib/gcc/avr/10.2.0/../../../../avr/lib/avr5/libm.a
+LOAD /usr/lib/gcc/avr/10.2.0/../../../../avr/lib/avr5/libc.a
+LOAD /usr/lib/gcc/avr/10.2.0/../../../../avr/lib/avr5/libatmega328.a
+END GROUP
+                0x0000000000020000                __TEXT_REGION_LENGTH__ = DEFINED (__TEXT_REGION_LENGTH__)?__TEXT_REGION_LENGTH__:0x20000
+                0x000000000000ffa0                __DATA_REGION_LENGTH__ = DEFINED (__DATA_REGION_LENGTH__)?__DATA_REGION_LENGTH__:0xffa0
+                0x0000000000010000                __EEPROM_REGION_LENGTH__ = DEFINED (__EEPROM_REGION_LENGTH__)?__EEPROM_REGION_LENGTH__:0x10000
+                0x0000000000000400                __FUSE_REGION_LENGTH__ = DEFINED (__FUSE_REGION_LENGTH__)?__FUSE_REGION_LENGTH__:0x400
+                0x0000000000000400                __LOCK_REGION_LENGTH__ = DEFINED (__LOCK_REGION_LENGTH__)?__LOCK_REGION_LENGTH__:0x400
+                0x0000000000000400                __SIGNATURE_REGION_LENGTH__ = DEFINED (__SIGNATURE_REGION_LENGTH__)?__SIGNATURE_REGION_LENGTH__:0x400
+                0x0000000000000400                __USER_SIGNATURE_REGION_LENGTH__ = DEFINED (__USER_SIGNATURE_REGION_LENGTH__)?__USER_SIGNATURE_REGION_LENGTH__:0x400
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x0000000000000000     0x7c54
+ *(.vectors)
+ .vectors       0x0000000000000000       0x68 /usr/lib/gcc/avr/10.2.0/../../../../avr/lib/avr5/crtatmega328.o
+                0x0000000000000000                __vectors
+                0x0000000000000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+                0x0000000000000068                . = ALIGN (0x2)
+                0x0000000000000068                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x0000000000000068        0x0 linker stubs
+ *(.trampolines*)
+                0x0000000000000068                __trampolines_end = .
+ *libprintf_flt.a:*(.progmem.data)
+ *libc.a:*(.progmem.data)
+ *(.progmem.*)
+ .progmem.data  0x0000000000000068      0x9fe /tmp/ComponentTester.obNEMA.ltrans0.ltrans.o
+                0x0000000000000a66                . = ALIGN (0x2)
+ *(.lowtext)
+ *(.lowtext*)
+                0x0000000000000a66                __ctors_start = .
+ *(.ctors)
+                0x0000000000000a66                __ctors_end = .
+                0x0000000000000a66                __dtors_start = .
+ *(.dtors)
+                0x0000000000000a66                __dtors_end = .
+ SORT_BY_NAME(*)(.ctors)
+ SORT_BY_NAME(*)(.dtors)
+ *(.init0)
+ .init0         0x0000000000000a66        0x0 /usr/lib/gcc/avr/10.2.0/../../../../avr/lib/avr5/crtatmega328.o
+                0x0000000000000a66                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x0000000000000a66        0xc /usr/lib/gcc/avr/10.2.0/../../../../avr/lib/avr5/crtatmega328.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x0000000000000a72       0x16 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_copy_data.o)
+                0x0000000000000a72                __do_copy_data
+ .init4         0x0000000000000a88       0x10 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_clear_bss.o)
+                0x0000000000000a88                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x0000000000000a98        0x8 /usr/lib/gcc/avr/10.2.0/../../../../avr/lib/avr5/crtatmega328.o
+ *(.init9)
+ *(.text)
+ .text          0x0000000000000aa0        0x2 /usr/lib/gcc/avr/10.2.0/../../../../avr/lib/avr5/crtatmega328.o
+                0x0000000000000aa0                __vector_22
+                0x0000000000000aa0                __vector_1
+                0x0000000000000aa0                __vector_24
+                0x0000000000000aa0                __vector_12
+                0x0000000000000aa0                __bad_interrupt
+                0x0000000000000aa0                __vector_6
+                0x0000000000000aa0                __vector_3
+                0x0000000000000aa0                __vector_23
+                0x0000000000000aa0                __vector_25
+                0x0000000000000aa0                __vector_11
+                0x0000000000000aa0                __vector_13
+                0x0000000000000aa0                __vector_17
+                0x0000000000000aa0                __vector_19
+                0x0000000000000aa0                __vector_5
+                0x0000000000000aa0                __vector_4
+                0x0000000000000aa0                __vector_9
+                0x0000000000000aa0                __vector_2
+                0x0000000000000aa0                __vector_21
+                0x0000000000000aa0                __vector_15
+                0x0000000000000aa0                __vector_8
+                0x0000000000000aa0                __vector_14
+                0x0000000000000aa0                __vector_10
+                0x0000000000000aa0                __vector_16
+                0x0000000000000aa0                __vector_18
+                0x0000000000000aa0                __vector_20
+ .text          0x0000000000000aa2     0x47a0 /tmp/ComponentTester.obNEMA.ltrans0.ltrans.o
+                0x000000000000522e                __vector_7
+ .text          0x0000000000005242       0x4a wait.o
+                0x0000000000005242                wait5s
+                0x0000000000005244                wait4s
+                0x0000000000005246                wait3s
+                0x0000000000005248                wait2s
+                0x000000000000524a                wait1s
+                0x000000000000524a                wait1000ms
+                0x000000000000524c                wait500ms
+                0x000000000000524e                wait400ms
+                0x0000000000005250                wait300ms
+                0x0000000000005252                wait200ms
+                0x0000000000005254                wait100ms
+                0x0000000000005258                wait50ms
+                0x000000000000525a                wait40ms
+                0x000000000000525c                wait30ms
+                0x000000000000525e                wait20ms
+                0x0000000000005260                wait10ms
+                0x0000000000005262                wait5ms
+                0x0000000000005264                wait4ms
+                0x0000000000005266                wait3ms
+                0x0000000000005268                wait2ms
+                0x000000000000526a                wait1ms
+                0x000000000000526c                wait500us
+                0x000000000000526e                wait400us
+                0x0000000000005270                wait300us
+                0x0000000000005272                wait200us
+                0x0000000000005274                wait100us
+                0x0000000000005276                wait50us
+                0x0000000000005278                wait40us
+                0x000000000000527a                wait30us
+                0x000000000000527c                wait20us
+                0x000000000000527e                wait10us
+                0x0000000000005280                wait5us
+                0x0000000000005282                wait4us
+                0x0000000000005284                wait3us
+                0x0000000000005286                wait2us
+                0x0000000000005288                wait1us
+ .text          0x000000000000528c        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_exit.o)
+ .text          0x000000000000528c        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_mulsi3.o)
+ .text          0x000000000000528c        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_udivmodqi4.o)
+ .text          0x000000000000528c        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_divmodqi4.o)
+ .text          0x000000000000528c        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_udivmodhi4.o)
+ .text          0x000000000000528c        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_divmodhi4.o)
+ .text          0x000000000000528c        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_udivmodsi4.o)
+ .text          0x000000000000528c        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_divmodsi4.o)
+ .text          0x000000000000528c        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_negsi2.o)
+ .text          0x000000000000528c        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_tablejump2.o)
+ .text          0x000000000000528c        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_copy_data.o)
+ .text          0x000000000000528c        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_clear_bss.o)
+ .text          0x000000000000528c        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_umulhisi3.o)
+ .text          0x000000000000528c        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_usmulhisi3.o)
+ .text          0x000000000000528c        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_muluhisi3.o)
+ .text          0x000000000000528c        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_prologue.o)
+ .text          0x000000000000528c        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_epilogue.o)
+ .text          0x000000000000528c        0x0 /usr/lib/gcc/avr/10.2.0/../../../../avr/lib/avr5/libc.a(ultoa_ncheck.o)
+ .text          0x000000000000528c        0x0 /usr/lib/gcc/avr/10.2.0/../../../../avr/lib/avr5/libc.a(utoa_ncheck.o)
+ .text          0x000000000000528c        0x0 /usr/lib/gcc/avr/10.2.0/../../../../avr/lib/avr5/libc.a(strrev.o)
+ .text          0x000000000000528c        0x0 /usr/lib/gcc/avr/10.2.0/../../../../avr/lib/avr5/libatmega328.a(eerd_block.o)
+ .text          0x000000000000528c        0x0 /usr/lib/gcc/avr/10.2.0/../../../../avr/lib/avr5/libatmega328.a(eerd_byte.o)
+ .text          0x000000000000528c        0x0 /usr/lib/gcc/avr/10.2.0/../../../../avr/lib/avr5/libatmega328.a(eerd_word.o)
+ .text          0x000000000000528c        0x0 /usr/lib/gcc/avr/10.2.0/../../../../avr/lib/avr5/libatmega328.a(eewr_block.o)
+ .text          0x000000000000528c        0x0 /usr/lib/gcc/avr/10.2.0/../../../../avr/lib/avr5/libatmega328.a(eewr_byte.o)
+                0x000000000000528c                . = ALIGN (0x2)
+ *(.text.*)
+ .text.startup  0x000000000000528c     0x2670 /tmp/ComponentTester.obNEMA.ltrans0.ltrans.o
+                0x000000000000528c                main
+ .text.libgcc.mul
+                0x00000000000078fc        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x00000000000078fc        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc   0x00000000000078fc        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x00000000000078fc        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x00000000000078fc        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x00000000000078fc        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x00000000000078fc        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x00000000000078fc       0x1e /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_mulsi3.o)
+                0x00000000000078fc                __mulsi3
+ .text.libgcc.div
+                0x000000000000791a        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_mulsi3.o)
+ .text.libgcc   0x000000000000791a        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_mulsi3.o)
+ .text.libgcc.prologue
+                0x000000000000791a        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_mulsi3.o)
+ .text.libgcc.builtins
+                0x000000000000791a        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_mulsi3.o)
+ .text.libgcc.fmul
+                0x000000000000791a        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_mulsi3.o)
+ .text.libgcc.fixed
+                0x000000000000791a        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_mulsi3.o)
+ .text.libgcc.mul
+                0x000000000000791a        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_udivmodqi4.o)
+ .text.libgcc.div
+                0x000000000000791a       0x18 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_udivmodqi4.o)
+                0x000000000000791a                __udivmodqi4
+ .text.libgcc   0x0000000000007932        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_udivmodqi4.o)
+ .text.libgcc.prologue
+                0x0000000000007932        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_udivmodqi4.o)
+ .text.libgcc.builtins
+                0x0000000000007932        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_udivmodqi4.o)
+ .text.libgcc.fmul
+                0x0000000000007932        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_udivmodqi4.o)
+ .text.libgcc.fixed
+                0x0000000000007932        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_udivmodqi4.o)
+ .text.libgcc.mul
+                0x0000000000007932        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_divmodqi4.o)
+ .text.libgcc.div
+                0x0000000000007932       0x1a /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_divmodqi4.o)
+                0x0000000000007932                __divmodqi4
+ .text.libgcc   0x000000000000794c        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_divmodqi4.o)
+ .text.libgcc.prologue
+                0x000000000000794c        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_divmodqi4.o)
+ .text.libgcc.builtins
+                0x000000000000794c        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_divmodqi4.o)
+ .text.libgcc.fmul
+                0x000000000000794c        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_divmodqi4.o)
+ .text.libgcc.fixed
+                0x000000000000794c        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_divmodqi4.o)
+ .text.libgcc.mul
+                0x000000000000794c        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.div
+                0x000000000000794c       0x28 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_udivmodhi4.o)
+                0x000000000000794c                __udivmodhi4
+ .text.libgcc   0x0000000000007974        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.prologue
+                0x0000000000007974        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.builtins
+                0x0000000000007974        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.fmul
+                0x0000000000007974        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.fixed
+                0x0000000000007974        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.mul
+                0x0000000000007974        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_divmodhi4.o)
+ .text.libgcc.div
+                0x0000000000007974       0x26 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_divmodhi4.o)
+                0x0000000000007974                __divmodhi4
+                0x0000000000007974                _div
+ .text.libgcc   0x000000000000799a        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_divmodhi4.o)
+ .text.libgcc.prologue
+                0x000000000000799a        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_divmodhi4.o)
+ .text.libgcc.builtins
+                0x000000000000799a        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_divmodhi4.o)
+ .text.libgcc.fmul
+                0x000000000000799a        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_divmodhi4.o)
+ .text.libgcc.fixed
+                0x000000000000799a        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_divmodhi4.o)
+ .text.libgcc.mul
+                0x000000000000799a        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.div
+                0x000000000000799a       0x44 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_udivmodsi4.o)
+                0x000000000000799a                __udivmodsi4
+ .text.libgcc   0x00000000000079de        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.prologue
+                0x00000000000079de        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.builtins
+                0x00000000000079de        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fmul
+                0x00000000000079de        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fixed
+                0x00000000000079de        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.mul
+                0x00000000000079de        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_divmodsi4.o)
+ .text.libgcc.div
+                0x00000000000079de       0x28 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_divmodsi4.o)
+                0x00000000000079de                __divmodsi4
+ .text.libgcc   0x0000000000007a06        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_divmodsi4.o)
+ .text.libgcc.prologue
+                0x0000000000007a06        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_divmodsi4.o)
+ .text.libgcc.builtins
+                0x0000000000007a06        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_divmodsi4.o)
+ .text.libgcc.fmul
+                0x0000000000007a06        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_divmodsi4.o)
+ .text.libgcc.fixed
+                0x0000000000007a06        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_divmodsi4.o)
+ .text.libgcc.mul
+                0x0000000000007a06        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_negsi2.o)
+ .text.libgcc.div
+                0x0000000000007a06       0x10 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_negsi2.o)
+                0x0000000000007a06                __negsi2
+ .text.libgcc   0x0000000000007a16        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_negsi2.o)
+ .text.libgcc.prologue
+                0x0000000000007a16        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_negsi2.o)
+ .text.libgcc.builtins
+                0x0000000000007a16        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_negsi2.o)
+ .text.libgcc.fmul
+                0x0000000000007a16        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_negsi2.o)
+ .text.libgcc.fixed
+                0x0000000000007a16        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_negsi2.o)
+ .text.libgcc.mul
+                0x0000000000007a16        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc.div
+                0x0000000000007a16        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc   0x0000000000007a16        0xc /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_tablejump2.o)
+                0x0000000000007a16                __tablejump2__
+ .text.libgcc.prologue
+                0x0000000000007a22        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc.builtins
+                0x0000000000007a22        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc.fmul
+                0x0000000000007a22        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc.fixed
+                0x0000000000007a22        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc.mul
+                0x0000000000007a22        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x0000000000007a22        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc   0x0000000000007a22        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x0000000000007a22        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x0000000000007a22        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x0000000000007a22        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x0000000000007a22        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x0000000000007a22        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x0000000000007a22        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc   0x0000000000007a22        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x0000000000007a22        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x0000000000007a22        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x0000000000007a22        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x0000000000007a22        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x0000000000007a22       0x1e /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_umulhisi3.o)
+                0x0000000000007a22                __umulhisi3
+ .text.libgcc.div
+                0x0000000000007a40        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_umulhisi3.o)
+ .text.libgcc   0x0000000000007a40        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_umulhisi3.o)
+ .text.libgcc.prologue
+                0x0000000000007a40        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_umulhisi3.o)
+ .text.libgcc.builtins
+                0x0000000000007a40        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_umulhisi3.o)
+ .text.libgcc.fmul
+                0x0000000000007a40        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_umulhisi3.o)
+ .text.libgcc.fixed
+                0x0000000000007a40        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_umulhisi3.o)
+ .text.libgcc.mul
+                0x0000000000007a40        0xc /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_usmulhisi3.o)
+                0x0000000000007a40                __usmulhisi3
+                0x0000000000007a42                __usmulhisi3_tail
+ .text.libgcc.div
+                0x0000000000007a4c        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_usmulhisi3.o)
+ .text.libgcc   0x0000000000007a4c        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_usmulhisi3.o)
+ .text.libgcc.prologue
+                0x0000000000007a4c        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_usmulhisi3.o)
+ .text.libgcc.builtins
+                0x0000000000007a4c        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_usmulhisi3.o)
+ .text.libgcc.fmul
+                0x0000000000007a4c        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_usmulhisi3.o)
+ .text.libgcc.fixed
+                0x0000000000007a4c        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_usmulhisi3.o)
+ .text.libgcc.mul
+                0x0000000000007a4c       0x14 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_muluhisi3.o)
+                0x0000000000007a4c                __muluhisi3
+ .text.libgcc.div
+                0x0000000000007a60        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_muluhisi3.o)
+ .text.libgcc   0x0000000000007a60        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_muluhisi3.o)
+ .text.libgcc.prologue
+                0x0000000000007a60        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_muluhisi3.o)
+ .text.libgcc.builtins
+                0x0000000000007a60        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_muluhisi3.o)
+ .text.libgcc.fmul
+                0x0000000000007a60        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_muluhisi3.o)
+ .text.libgcc.fixed
+                0x0000000000007a60        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_muluhisi3.o)
+ .text.libgcc.mul
+                0x0000000000007a60        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_prologue.o)
+ .text.libgcc.div
+                0x0000000000007a60        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_prologue.o)
+ .text.libgcc   0x0000000000007a60        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_prologue.o)
+ .text.libgcc.prologue
+                0x0000000000007a60       0x38 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_prologue.o)
+                0x0000000000007a60                __prologue_saves__
+ .text.libgcc.builtins
+                0x0000000000007a98        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_prologue.o)
+ .text.libgcc.fmul
+                0x0000000000007a98        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_prologue.o)
+ .text.libgcc.fixed
+                0x0000000000007a98        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_prologue.o)
+ .text.libgcc.mul
+                0x0000000000007a98        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_epilogue.o)
+ .text.libgcc.div
+                0x0000000000007a98        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_epilogue.o)
+ .text.libgcc   0x0000000000007a98        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_epilogue.o)
+ .text.libgcc.prologue
+                0x0000000000007a98       0x36 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_epilogue.o)
+                0x0000000000007a98                __epilogue_restores__
+ .text.libgcc.builtins
+                0x0000000000007ace        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_epilogue.o)
+ .text.libgcc.fmul
+                0x0000000000007ace        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_epilogue.o)
+ .text.libgcc.fixed
+                0x0000000000007ace        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_epilogue.o)
+ .text.avr-libc
+                0x0000000000007ace       0x42 /usr/lib/gcc/avr/10.2.0/../../../../avr/lib/avr5/libc.a(ultoa_ncheck.o)
+                0x0000000000007ace                __ultoa_ncheck
+                0x0000000000007ad0                __ultoa_common
+ .text.avr-libc
+                0x0000000000007b10       0x32 /usr/lib/gcc/avr/10.2.0/../../../../avr/lib/avr5/libc.a(utoa_ncheck.o)
+                0x0000000000007b10                __utoa_ncheck
+                0x0000000000007b12                __utoa_common
+ .text.avr-libc
+                0x0000000000007b42       0x20 /usr/lib/gcc/avr/10.2.0/../../../../avr/lib/avr5/libc.a(strrev.o)
+                0x0000000000007b42                strrev
+ .text.avr-libc
+                0x0000000000007b62       0x20 /usr/lib/gcc/avr/10.2.0/../../../../avr/lib/avr5/libatmega328.a(eerd_block.o)
+                0x0000000000007b62                eeprom_read_block
+                0x0000000000007b66                eeprom_read_blraw
+ .text.avr-libc
+                0x0000000000007b82       0x10 /usr/lib/gcc/avr/10.2.0/../../../../avr/lib/avr5/libatmega328.a(eerd_byte.o)
+                0x0000000000007b82                eeprom_read_byte
+ .text.avr-libc
+                0x0000000000007b92        0xa /usr/lib/gcc/avr/10.2.0/../../../../avr/lib/avr5/libatmega328.a(eerd_word.o)
+                0x0000000000007b92                eeprom_read_word
+ .text.avr-libc
+                0x0000000000007b9c       0x12 /usr/lib/gcc/avr/10.2.0/../../../../avr/lib/avr5/libatmega328.a(eewr_block.o)
+                0x0000000000007b9c                eeprom_write_block
+ .text.avr-libc
+                0x0000000000007bae       0x1c /usr/lib/gcc/avr/10.2.0/../../../../avr/lib/avr5/libatmega328.a(eewr_byte.o)
+                0x0000000000007bae                eeprom_write_byte
+                0x0000000000007bb0                eeprom_write_r18
+                0x0000000000007bca                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x0000000000007bca        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_exit.o)
+                0x0000000000007bca                exit
+                0x0000000000007bca                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x0000000000007bca        0x4 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_exit.o)
+ *(.fini0)
+ *(.hightext)
+ *(.hightext*)
+ *(.progmemx.*)
+                0x0000000000007bce                . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+ .jumptables.gcc.main
+                0x0000000000007bce       0x86 /tmp/ComponentTester.obNEMA.ltrans0.ltrans.o
+                0x0000000000007c54                _etext = .
+
+.data           0x0000000000800100       0x10 load address 0x0000000000007c54
+                0x0000000000800100                PROVIDE (__data_start = .)
+ *(.data)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/10.2.0/../../../../avr/lib/avr5/crtatmega328.o
+ .data          0x0000000000800100        0x0 /tmp/ComponentTester.obNEMA.ltrans0.ltrans.o
+ .data          0x0000000000800100        0x0 wait.o
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_exit.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_mulsi3.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_udivmodqi4.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_divmodqi4.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_udivmodhi4.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_divmodhi4.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_udivmodsi4.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_divmodsi4.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_negsi2.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_tablejump2.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_copy_data.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_clear_bss.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_umulhisi3.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_usmulhisi3.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_muluhisi3.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_prologue.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_epilogue.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/10.2.0/../../../../avr/lib/avr5/libc.a(ultoa_ncheck.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/10.2.0/../../../../avr/lib/avr5/libc.a(utoa_ncheck.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/10.2.0/../../../../avr/lib/avr5/libc.a(strrev.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/10.2.0/../../../../avr/lib/avr5/libatmega328.a(eerd_block.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/10.2.0/../../../../avr/lib/avr5/libatmega328.a(eerd_byte.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/10.2.0/../../../../avr/lib/avr5/libatmega328.a(eerd_word.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/10.2.0/../../../../avr/lib/avr5/libatmega328.a(eewr_block.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/10.2.0/../../../../avr/lib/avr5/libatmega328.a(eewr_byte.o)
+ *(.data*)
+ *(.gnu.linkonce.d*)
+ *(.rodata)
+ .rodata        0x0000000000800100        0xf /tmp/ComponentTester.obNEMA.ltrans0.ltrans.o
+ *(.rodata*)
+ *(.gnu.linkonce.r*)
+                0x0000000000800110                . = ALIGN (0x2)
+ *fill*         0x000000000080010f        0x1 
+                0x0000000000800110                _edata = .
+                0x0000000000800110                PROVIDE (__data_end = .)
+
+.bss            0x0000000000800110       0xe4
+                0x0000000000800110                PROVIDE (__bss_start = .)
+ *(.bss)
+ .bss           0x0000000000800110        0x0 /usr/lib/gcc/avr/10.2.0/../../../../avr/lib/avr5/crtatmega328.o
+ .bss           0x0000000000800110       0xe4 /tmp/ComponentTester.obNEMA.ltrans0.ltrans.o
+ .bss           0x00000000008001f4        0x0 wait.o
+ .bss           0x00000000008001f4        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_exit.o)
+ .bss           0x00000000008001f4        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_mulsi3.o)
+ .bss           0x00000000008001f4        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_udivmodqi4.o)
+ .bss           0x00000000008001f4        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_divmodqi4.o)
+ .bss           0x00000000008001f4        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_udivmodhi4.o)
+ .bss           0x00000000008001f4        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_divmodhi4.o)
+ .bss           0x00000000008001f4        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_udivmodsi4.o)
+ .bss           0x00000000008001f4        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_divmodsi4.o)
+ .bss           0x00000000008001f4        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_negsi2.o)
+ .bss           0x00000000008001f4        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_tablejump2.o)
+ .bss           0x00000000008001f4        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_copy_data.o)
+ .bss           0x00000000008001f4        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_clear_bss.o)
+ .bss           0x00000000008001f4        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_umulhisi3.o)
+ .bss           0x00000000008001f4        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_usmulhisi3.o)
+ .bss           0x00000000008001f4        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_muluhisi3.o)
+ .bss           0x00000000008001f4        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_prologue.o)
+ .bss           0x00000000008001f4        0x0 /usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_epilogue.o)
+ .bss           0x00000000008001f4        0x0 /usr/lib/gcc/avr/10.2.0/../../../../avr/lib/avr5/libc.a(ultoa_ncheck.o)
+ .bss           0x00000000008001f4        0x0 /usr/lib/gcc/avr/10.2.0/../../../../avr/lib/avr5/libc.a(utoa_ncheck.o)
+ .bss           0x00000000008001f4        0x0 /usr/lib/gcc/avr/10.2.0/../../../../avr/lib/avr5/libc.a(strrev.o)
+ .bss           0x00000000008001f4        0x0 /usr/lib/gcc/avr/10.2.0/../../../../avr/lib/avr5/libatmega328.a(eerd_block.o)
+ .bss           0x00000000008001f4        0x0 /usr/lib/gcc/avr/10.2.0/../../../../avr/lib/avr5/libatmega328.a(eerd_byte.o)
+ .bss           0x00000000008001f4        0x0 /usr/lib/gcc/avr/10.2.0/../../../../avr/lib/avr5/libatmega328.a(eerd_word.o)
+ .bss           0x00000000008001f4        0x0 /usr/lib/gcc/avr/10.2.0/../../../../avr/lib/avr5/libatmega328.a(eewr_block.o)
+ .bss           0x00000000008001f4        0x0 /usr/lib/gcc/avr/10.2.0/../../../../avr/lib/avr5/libatmega328.a(eewr_byte.o)
+ *(.bss*)
+ *(COMMON)
+                0x00000000008001f4                PROVIDE (__bss_end = .)
+                0x0000000000007c54                __data_load_start = LOADADDR (.data)
+                0x0000000000007c64                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x00000000008001f4        0x0
+                [!provide]                        PROVIDE (__noinit_start = .)
+ *(.noinit*)
+                [!provide]                        PROVIDE (__noinit_end = .)
+                0x00000000008001f4                _end = .
+                [!provide]                        PROVIDE (__heap_start = .)
+
+.eeprom         0x0000000000810000      0x363
+ *(.eeprom*)
+ .eeprom        0x0000000000810000      0x363 /tmp/ComponentTester.obNEMA.ltrans0.ltrans.o
+                0x0000000000810363                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab           0x0000000000000000    0x109e0
+ *(.stab)
+ .stab          0x0000000000000000    0x109e0 /tmp/ComponentTester.obNEMA.ltrans0.ltrans.o
+
+.stabstr        0x0000000000000000     0x238c
+ *(.stabstr)
+ .stabstr       0x0000000000000000     0x238c /tmp/ComponentTester.obNEMA.ltrans0.ltrans.o
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x1b
+ *(.comment)
+ .comment       0x0000000000000000       0x1b /tmp/ComponentTester.obNEMA.ltrans0.ltrans.o
+                                         0x1c (size before relaxing)
+ .comment       0x000000000000001b       0x1c /tmp/ccgfKHpI.debug.temp.o
+ .comment       0x000000000000001b       0x1c /tmp/cchiBHmh.debug.temp.o
+ .comment       0x000000000000001b       0x1c /tmp/ccKbknfC.debug.temp.o
+ .comment       0x000000000000001b       0x1c /tmp/ccLFgDKJ.debug.temp.o
+ .comment       0x000000000000001b       0x1c /tmp/ccJmmeHp.debug.temp.o
+ .comment       0x000000000000001b       0x1c /tmp/ccjkMlCM.debug.temp.o
+ .comment       0x000000000000001b       0x1c /tmp/ccIMGIia.debug.temp.o
+ .comment       0x000000000000001b       0x1c /tmp/ccIILkaM.debug.temp.o
+ .comment       0x000000000000001b       0x1c /tmp/ccdKompk.debug.temp.o
+ .comment       0x000000000000001b       0x1c /tmp/ccCMFJnI.debug.temp.o
+ .comment       0x000000000000001b       0x1c /tmp/cclNhMGf.debug.temp.o
+ .comment       0x000000000000001b       0x1c /tmp/ccDoCJpc.debug.temp.o
+ .comment       0x000000000000001b       0x1c /tmp/ccbpibaG.debug.temp.o
+ .comment       0x000000000000001b       0x1c /tmp/ccEdmBNo.debug.temp.o
+ .comment       0x000000000000001b       0x1c /tmp/ccemlNcn.debug.temp.o
+ .comment       0x000000000000001b       0x1c /tmp/ccfGLiAo.debug.temp.o
+ .comment       0x000000000000001b       0x1c /tmp/ccEcjHim.debug.temp.o
+ .comment       0x000000000000001b       0x1c /tmp/ccmpEBik.debug.temp.o
+ .comment       0x000000000000001b       0x1c /tmp/ccGKonKN.debug.temp.o
+ .comment       0x000000000000001b       0x1c /tmp/ccBPKkFg.debug.temp.o
+ .comment       0x000000000000001b       0x1c /tmp/cceGdLhA.debug.temp.o
+ .comment       0x000000000000001b       0x1c /tmp/cchObkbM.debug.temp.o
+ .comment       0x000000000000001b       0x1c /tmp/ccmboOCO.debug.temp.o
+ .comment       0x000000000000001b       0x1c /tmp/ccoLCmcM.debug.temp.o
+ .comment       0x000000000000001b       0x1c /tmp/ccjEknom.debug.temp.o
+ .comment       0x000000000000001b       0x1c /tmp/ccmmlIAM.debug.temp.o
+ .comment       0x000000000000001b       0x1c /tmp/ccjaEMEO.debug.temp.o
+ .comment       0x000000000000001b       0x1c /tmp/ccgOebmm.debug.temp.o
+ .comment       0x000000000000001b       0x1c /tmp/ccbfcciP.debug.temp.o
+ .comment       0x000000000000001b       0x1c /tmp/ccOFCgMb.debug.temp.o
+ .comment       0x000000000000001b       0x1c /tmp/ccKpJfGj.debug.temp.o
+ .comment       0x000000000000001b       0x1c /tmp/ccdCMcHn.debug.temp.o
+ .comment       0x000000000000001b       0x1c /tmp/ccGhiBEK.debug.temp.o
+ .comment       0x000000000000001b       0x1c /tmp/ccahIpGP.debug.temp.o
+ .comment       0x000000000000001b       0x1c /tmp/ccFCMdGb.debug.temp.o
+ .comment       0x000000000000001b       0x1c /tmp/ccJIACnj.debug.temp.o
+ .comment       0x000000000000001b       0x1c /tmp/ccdJpBCh.debug.temp.o
+ .comment       0x000000000000001b       0x1c /tmp/ccHPAdPj.debug.temp.o
+ .comment       0x000000000000001b       0x1c /tmp/ccnCjKCJ.debug.temp.o
+ .comment       0x000000000000001b       0x1c /tmp/ccKAKNLO.debug.temp.o
+ .comment       0x000000000000001b       0x1c /tmp/ccdomJem.debug.temp.o
+ .comment       0x000000000000001b       0x1c /tmp/ccAnaMDE.debug.temp.o
+ .comment       0x000000000000001b       0x1c /tmp/ccagIfMJ.debug.temp.o
+ .comment       0x000000000000001b       0x1c /tmp/cchLfNnA.debug.temp.o
+
+.note.gnu.avr.deviceinfo
+                0x0000000000000000       0x3c
+ .note.gnu.avr.deviceinfo
+                0x0000000000000000       0x3c /usr/lib/gcc/avr/10.2.0/../../../../avr/lib/avr5/crtatmega328.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000       0x20
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x20 wait.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0x7ab9
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000      0x5f4 /usr/lib/gcc/avr/10.2.0/../../../../avr/lib/avr5/crtatmega328.o
+ .debug_info    0x00000000000005f4     0x1546 /tmp/ccgfKHpI.debug.temp.o
+                0x00000000000005f4                main.c.80c8d6b5
+ .debug_info    0x0000000000001b3a      0x747 /tmp/cchiBHmh.debug.temp.o
+                0x0000000000001b3a                user.c.f608bbfc
+ .debug_info    0x0000000000002281      0x1ac /tmp/ccKbknfC.debug.temp.o
+                0x0000000000002281                pause.c.4aaabbaf
+ .debug_info    0x000000000000242d      0x68a /tmp/ccLFgDKJ.debug.temp.o
+                0x000000000000242d                adjust.c.90801ec5
+ .debug_info    0x0000000000002ab7      0x1dc /tmp/ccJmmeHp.debug.temp.o
+                0x0000000000002ab7                ADC.c.0127b6d2
+ .debug_info    0x0000000000002c93      0x9a2 /tmp/ccjkMlCM.debug.temp.o
+                0x0000000000002c93                probes.c.54b869d8
+ .debug_info    0x0000000000003635      0xa07 /tmp/ccIMGIia.debug.temp.o
+                0x0000000000003635                display.c.2878dfe0
+ .debug_info    0x000000000000403c      0x5f7 /tmp/ccIILkaM.debug.temp.o
+                0x000000000000403c                resistor.c.6f83e609
+ .debug_info    0x0000000000004633      0x855 /tmp/ccdKompk.debug.temp.o
+                0x0000000000004633                cap.c.5a461ce5
+ .debug_info    0x0000000000004e88      0xb3a /tmp/ccCMFJnI.debug.temp.o
+                0x0000000000004e88                semi.c.9a6b13f8
+ .debug_info    0x00000000000059c2      0x5c7 /tmp/cclNhMGf.debug.temp.o
+                0x00000000000059c2                inductor.c.0a549dc4
+ .debug_info    0x0000000000005f89      0x96a /tmp/ccDoCJpc.debug.temp.o
+                0x0000000000005f89                tools_misc.c.793b9493
+ .debug_info    0x00000000000068f3      0x113 /tmp/ccbpibaG.debug.temp.o
+                0x00000000000068f3                tools_signal.c.da86e96f
+ .debug_info    0x0000000000006a06       0x5d /tmp/ccEdmBNo.debug.temp.o
+                0x0000000000006a06                tools_counter.c.490818bb
+ .debug_info    0x0000000000006a63       0x6b /tmp/ccemlNcn.debug.temp.o
+                0x0000000000006a63                tools_LC_Meter.c.4ce9cafc
+ .debug_info    0x0000000000006ace      0x170 /tmp/ccfGLiAo.debug.temp.o
+                0x0000000000006ace                SPI.c.dd6fc495
+ .debug_info    0x0000000000006c3e       0x1d /tmp/ccEcjHim.debug.temp.o
+                0x0000000000006c3e                I2C.c.4aa4aa11
+ .debug_info    0x0000000000006c5b       0x1d /tmp/ccmpEBik.debug.temp.o
+                0x0000000000006c5b                serial.c.2e36be1c
+ .debug_info    0x0000000000006c78       0x1d /tmp/ccGKonKN.debug.temp.o
+                0x0000000000006c78                commands.c.46bd1e7c
+ .debug_info    0x0000000000006c95       0x1d /tmp/ccBPKkFg.debug.temp.o
+                0x0000000000006c95                OneWire.c.582fe244
+ .debug_info    0x0000000000006cb2      0x657 /tmp/cceGdLhA.debug.temp.o
+                0x0000000000006cb2                IR_RX.c.4ca4e35d
+ .debug_info    0x0000000000007309       0x1d /tmp/cchObkbM.debug.temp.o
+                0x0000000000007309                IR_TX.c.e90043eb
+ .debug_info    0x0000000000007326       0x1d /tmp/ccmboOCO.debug.temp.o
+                0x0000000000007326                DHTxx.c.3310db97
+ .debug_info    0x0000000000007343       0x1d /tmp/ccoLCmcM.debug.temp.o
+                0x0000000000007343                ADS7843.c.0bec2a84
+ .debug_info    0x0000000000007360       0x1d /tmp/ccjEknom.debug.temp.o
+                0x0000000000007360                MAX6675.c.938c82b8
+ .debug_info    0x000000000000737d       0x1d /tmp/ccmmlIAM.debug.temp.o
+                0x000000000000737d                MAX31855.c.fcdc6355
+ .debug_info    0x000000000000739a       0x1d /tmp/ccjaEMEO.debug.temp.o
+                0x000000000000739a                HD44780.c.f6b98f7c
+ .debug_info    0x00000000000073b7       0x1d /tmp/ccgOebmm.debug.temp.o
+                0x00000000000073b7                ILI9163.c.d485db15
+ .debug_info    0x00000000000073d4       0x1d /tmp/ccbfcciP.debug.temp.o
+                0x00000000000073d4                ILI9341.c.4388e9a0
+ .debug_info    0x00000000000073f1       0x1d /tmp/ccOFCgMb.debug.temp.o
+                0x00000000000073f1                ILI9481.c.d3b6d052
+ .debug_info    0x000000000000740e       0x1d /tmp/ccKpJfGj.debug.temp.o
+                0x000000000000740e                ILI9486.c.45db8953
+ .debug_info    0x000000000000742b       0x1d /tmp/ccdCMcHn.debug.temp.o
+                0x000000000000742b                ILI9488.c.fd2d6cfd
+ .debug_info    0x0000000000007448       0x1d /tmp/ccGhiBEK.debug.temp.o
+                0x0000000000007448                PCD8544.c.a093a7c1
+ .debug_info    0x0000000000007465       0x1d /tmp/ccahIpGP.debug.temp.o
+                0x0000000000007465                PCF8814.c.a10fd385
+ .debug_info    0x0000000000007482       0x1d /tmp/ccFCMdGb.debug.temp.o
+                0x0000000000007482                SH1106.c.2a058ede
+ .debug_info    0x000000000000749f       0x1d /tmp/ccJIACnj.debug.temp.o
+                0x000000000000749f                SSD1306.c.186ab358
+ .debug_info    0x00000000000074bc       0x1d /tmp/ccdJpBCh.debug.temp.o
+                0x00000000000074bc                ST7036.c.c352534f
+ .debug_info    0x00000000000074d9      0x50c /tmp/ccHPAdPj.debug.temp.o
+                0x00000000000074d9                ST7565R.c.7baaad75
+ .debug_info    0x00000000000079e5       0x1d /tmp/ccnCjKCJ.debug.temp.o
+                0x00000000000079e5                ST7735.c.d05eb00b
+ .debug_info    0x0000000000007a02       0x1d /tmp/ccKAKNLO.debug.temp.o
+                0x0000000000007a02                Semi_ST7735.c.04c1e99f
+ .debug_info    0x0000000000007a1f       0x1d /tmp/ccdomJem.debug.temp.o
+                0x0000000000007a1f                ST7920.c.b224a0da
+ .debug_info    0x0000000000007a3c       0x1d /tmp/ccAnaMDE.debug.temp.o
+                0x0000000000007a3c                STE2007.c.5d7a8d0c
+ .debug_info    0x0000000000007a59       0x1d /tmp/ccagIfMJ.debug.temp.o
+                0x0000000000007a59                VT100.c.8b311a20
+ .debug_info    0x0000000000007a76       0x1d /tmp/cchLfNnA.debug.temp.o
+                0x0000000000007a76                RD_Display.c.e223949a
+ .debug_info    0x0000000000007a93       0x26 wait.o
+
+.debug_abbrev   0x0000000000000000     0x1c97
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x5a2 /usr/lib/gcc/avr/10.2.0/../../../../avr/lib/avr5/crtatmega328.o
+ .debug_abbrev  0x00000000000005a2      0x1e3 /tmp/ccgfKHpI.debug.temp.o
+ .debug_abbrev  0x0000000000000785      0x17c /tmp/cchiBHmh.debug.temp.o
+ .debug_abbrev  0x0000000000000901       0xd4 /tmp/ccKbknfC.debug.temp.o
+ .debug_abbrev  0x00000000000009d5      0x146 /tmp/ccLFgDKJ.debug.temp.o
+ .debug_abbrev  0x0000000000000b1b       0xf1 /tmp/ccJmmeHp.debug.temp.o
+ .debug_abbrev  0x0000000000000c0c      0x1a4 /tmp/ccjkMlCM.debug.temp.o
+ .debug_abbrev  0x0000000000000db0      0x1a9 /tmp/ccIMGIia.debug.temp.o
+ .debug_abbrev  0x0000000000000f59      0x153 /tmp/ccIILkaM.debug.temp.o
+ .debug_abbrev  0x00000000000010ac      0x1a4 /tmp/ccdKompk.debug.temp.o
+ .debug_abbrev  0x0000000000001250      0x183 /tmp/ccCMFJnI.debug.temp.o
+ .debug_abbrev  0x00000000000013d3      0x111 /tmp/cclNhMGf.debug.temp.o
+ .debug_abbrev  0x00000000000014e4      0x12f /tmp/ccDoCJpc.debug.temp.o
+ .debug_abbrev  0x0000000000001613       0x9b /tmp/ccbpibaG.debug.temp.o
+ .debug_abbrev  0x00000000000016ae       0x26 /tmp/ccEdmBNo.debug.temp.o
+ .debug_abbrev  0x00000000000016d4       0x26 /tmp/ccemlNcn.debug.temp.o
+ .debug_abbrev  0x00000000000016fa       0xd1 /tmp/ccfGLiAo.debug.temp.o
+ .debug_abbrev  0x00000000000017cb       0x10 /tmp/ccEcjHim.debug.temp.o
+ .debug_abbrev  0x00000000000017db       0x10 /tmp/ccmpEBik.debug.temp.o
+ .debug_abbrev  0x00000000000017eb       0x10 /tmp/ccGKonKN.debug.temp.o
+ .debug_abbrev  0x00000000000017fb       0x10 /tmp/ccBPKkFg.debug.temp.o
+ .debug_abbrev  0x000000000000180b      0x197 /tmp/cceGdLhA.debug.temp.o
+ .debug_abbrev  0x00000000000019a2       0x10 /tmp/cchObkbM.debug.temp.o
+ .debug_abbrev  0x00000000000019b2       0x10 /tmp/ccmboOCO.debug.temp.o
+ .debug_abbrev  0x00000000000019c2       0x10 /tmp/ccoLCmcM.debug.temp.o
+ .debug_abbrev  0x00000000000019d2       0x10 /tmp/ccjEknom.debug.temp.o
+ .debug_abbrev  0x00000000000019e2       0x10 /tmp/ccmmlIAM.debug.temp.o
+ .debug_abbrev  0x00000000000019f2       0x10 /tmp/ccjaEMEO.debug.temp.o
+ .debug_abbrev  0x0000000000001a02       0x10 /tmp/ccgOebmm.debug.temp.o
+ .debug_abbrev  0x0000000000001a12       0x10 /tmp/ccbfcciP.debug.temp.o
+ .debug_abbrev  0x0000000000001a22       0x10 /tmp/ccOFCgMb.debug.temp.o
+ .debug_abbrev  0x0000000000001a32       0x10 /tmp/ccKpJfGj.debug.temp.o
+ .debug_abbrev  0x0000000000001a42       0x10 /tmp/ccdCMcHn.debug.temp.o
+ .debug_abbrev  0x0000000000001a52       0x10 /tmp/ccGhiBEK.debug.temp.o
+ .debug_abbrev  0x0000000000001a62       0x10 /tmp/ccahIpGP.debug.temp.o
+ .debug_abbrev  0x0000000000001a72       0x10 /tmp/ccFCMdGb.debug.temp.o
+ .debug_abbrev  0x0000000000001a82       0x10 /tmp/ccJIACnj.debug.temp.o
+ .debug_abbrev  0x0000000000001a92       0x10 /tmp/ccdJpBCh.debug.temp.o
+ .debug_abbrev  0x0000000000001aa2      0x181 /tmp/ccHPAdPj.debug.temp.o
+ .debug_abbrev  0x0000000000001c23       0x10 /tmp/ccnCjKCJ.debug.temp.o
+ .debug_abbrev  0x0000000000001c33       0x10 /tmp/ccKAKNLO.debug.temp.o
+ .debug_abbrev  0x0000000000001c43       0x10 /tmp/ccdomJem.debug.temp.o
+ .debug_abbrev  0x0000000000001c53       0x10 /tmp/ccAnaMDE.debug.temp.o
+ .debug_abbrev  0x0000000000001c63       0x10 /tmp/ccagIfMJ.debug.temp.o
+ .debug_abbrev  0x0000000000001c73       0x10 /tmp/cchLfNnA.debug.temp.o
+ .debug_abbrev  0x0000000000001c83       0x14 wait.o
+
+.debug_line     0x0000000000000000      0xac9
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000       0x1d /usr/lib/gcc/avr/10.2.0/../../../../avr/lib/avr5/crtatmega328.o
+ .debug_line    0x000000000000001d       0x8e /tmp/ccgfKHpI.debug.temp.o
+ .debug_line    0x00000000000000ab       0x5f /tmp/cchiBHmh.debug.temp.o
+ .debug_line    0x000000000000010a       0x60 /tmp/ccKbknfC.debug.temp.o
+ .debug_line    0x000000000000016a       0x61 /tmp/ccLFgDKJ.debug.temp.o
+ .debug_line    0x00000000000001cb       0x5e /tmp/ccJmmeHp.debug.temp.o
+ .debug_line    0x0000000000000229       0x61 /tmp/ccjkMlCM.debug.temp.o
+ .debug_line    0x000000000000028a       0x6e /tmp/ccIMGIia.debug.temp.o
+ .debug_line    0x00000000000002f8       0x63 /tmp/ccIILkaM.debug.temp.o
+ .debug_line    0x000000000000035b       0x5e /tmp/ccdKompk.debug.temp.o
+ .debug_line    0x00000000000003b9       0x5f /tmp/ccCMFJnI.debug.temp.o
+ .debug_line    0x0000000000000418       0x63 /tmp/cclNhMGf.debug.temp.o
+ .debug_line    0x000000000000047b       0x65 /tmp/ccDoCJpc.debug.temp.o
+ .debug_line    0x00000000000004e0       0x5b /tmp/ccbpibaG.debug.temp.o
+ .debug_line    0x000000000000053b       0x1d /tmp/ccEdmBNo.debug.temp.o
+ .debug_line    0x0000000000000558       0x1d /tmp/ccemlNcn.debug.temp.o
+ .debug_line    0x0000000000000575       0x5e /tmp/ccfGLiAo.debug.temp.o
+ .debug_line    0x00000000000005d3       0x1d /tmp/ccEcjHim.debug.temp.o
+ .debug_line    0x00000000000005f0       0x1d /tmp/ccmpEBik.debug.temp.o
+ .debug_line    0x000000000000060d       0x1d /tmp/ccGKonKN.debug.temp.o
+ .debug_line    0x000000000000062a       0x1d /tmp/ccBPKkFg.debug.temp.o
+ .debug_line    0x0000000000000647       0x60 /tmp/cceGdLhA.debug.temp.o
+ .debug_line    0x00000000000006a7       0x1d /tmp/cchObkbM.debug.temp.o
+ .debug_line    0x00000000000006c4       0x1d /tmp/ccmboOCO.debug.temp.o
+ .debug_line    0x00000000000006e1       0x1d /tmp/ccoLCmcM.debug.temp.o
+ .debug_line    0x00000000000006fe       0x1d /tmp/ccjEknom.debug.temp.o
+ .debug_line    0x000000000000071b       0x1d /tmp/ccmmlIAM.debug.temp.o
+ .debug_line    0x0000000000000738       0x1d /tmp/ccjaEMEO.debug.temp.o
+ .debug_line    0x0000000000000755       0x1d /tmp/ccgOebmm.debug.temp.o
+ .debug_line    0x0000000000000772       0x1d /tmp/ccbfcciP.debug.temp.o
+ .debug_line    0x000000000000078f       0x1d /tmp/ccOFCgMb.debug.temp.o
+ .debug_line    0x00000000000007ac       0x1d /tmp/ccKpJfGj.debug.temp.o
+ .debug_line    0x00000000000007c9       0x1d /tmp/ccdCMcHn.debug.temp.o
+ .debug_line    0x00000000000007e6       0x1d /tmp/ccGhiBEK.debug.temp.o
+ .debug_line    0x0000000000000803       0x1d /tmp/ccahIpGP.debug.temp.o
+ .debug_line    0x0000000000000820       0x1d /tmp/ccFCMdGb.debug.temp.o
+ .debug_line    0x000000000000083d       0x1d /tmp/ccJIACnj.debug.temp.o
+ .debug_line    0x000000000000085a       0x1d /tmp/ccdJpBCh.debug.temp.o
+ .debug_line    0x0000000000000877       0x92 /tmp/ccHPAdPj.debug.temp.o
+ .debug_line    0x0000000000000909       0x1d /tmp/ccnCjKCJ.debug.temp.o
+ .debug_line    0x0000000000000926       0x1d /tmp/ccKAKNLO.debug.temp.o
+ .debug_line    0x0000000000000943       0x1d /tmp/ccdomJem.debug.temp.o
+ .debug_line    0x0000000000000960       0x1d /tmp/ccAnaMDE.debug.temp.o
+ .debug_line    0x000000000000097d       0x1d /tmp/ccagIfMJ.debug.temp.o
+ .debug_line    0x000000000000099a       0x1d /tmp/cchLfNnA.debug.temp.o
+ .debug_line    0x00000000000009b7      0x112 wait.o
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000     0x1915
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0x208 /usr/lib/gcc/avr/10.2.0/../../../../avr/lib/avr5/crtatmega328.o
+ .debug_str     0x0000000000000208      0xacf /tmp/ccgfKHpI.debug.temp.o
+                                        0xba6 (size before relaxing)
+ .debug_str     0x0000000000000cd7      0x106 /tmp/cchiBHmh.debug.temp.o
+                                        0x49f (size before relaxing)
+ .debug_str     0x0000000000000ddd       0x2a /tmp/ccKbknfC.debug.temp.o
+                                        0x1e2 (size before relaxing)
+ .debug_str     0x0000000000000e07       0xe2 /tmp/ccLFgDKJ.debug.temp.o
+                                        0x463 (size before relaxing)
+ .debug_str     0x0000000000000ee9       0x28 /tmp/ccJmmeHp.debug.temp.o
+                                        0x1de (size before relaxing)
+ .debug_str     0x0000000000000f11      0x13a /tmp/ccjkMlCM.debug.temp.o
+                                        0x4d0 (size before relaxing)
+ .debug_str     0x000000000000104b      0x275 /tmp/ccIMGIia.debug.temp.o
+                                        0x5b8 (size before relaxing)
+ .debug_str     0x00000000000012c0       0x85 /tmp/ccIILkaM.debug.temp.o
+                                        0x379 (size before relaxing)
+ .debug_str     0x0000000000001345       0x9e /tmp/ccdKompk.debug.temp.o
+                                        0x3fd (size before relaxing)
+ .debug_str     0x00000000000013e3      0x159 /tmp/ccCMFJnI.debug.temp.o
+                                        0x505 (size before relaxing)
+ .debug_str     0x000000000000153c       0x4b /tmp/cclNhMGf.debug.temp.o
+                                        0x368 (size before relaxing)
+ .debug_str     0x0000000000001587       0x5f /tmp/ccDoCJpc.debug.temp.o
+                                        0x4d1 (size before relaxing)
+ .debug_str     0x00000000000015e6       0x25 /tmp/ccbpibaG.debug.temp.o
+                                        0x1a0 (size before relaxing)
+ .debug_str     0x000000000000160b       0x10 /tmp/ccEdmBNo.debug.temp.o
+                                        0x145 (size before relaxing)
+ .debug_str     0x000000000000161b       0x2e /tmp/ccemlNcn.debug.temp.o
+                                        0x163 (size before relaxing)
+ .debug_str     0x0000000000001649       0x1f /tmp/ccfGLiAo.debug.temp.o
+                                        0x1bb (size before relaxing)
+ .debug_str     0x0000000000001668        0x6 /tmp/ccEcjHim.debug.temp.o
+                                         0xcf (size before relaxing)
+ .debug_str     0x000000000000166e        0x9 /tmp/ccmpEBik.debug.temp.o
+                                         0xd2 (size before relaxing)
+ .debug_str     0x0000000000001677        0xb /tmp/ccGKonKN.debug.temp.o
+                                         0xd4 (size before relaxing)
+ .debug_str     0x0000000000001682        0xa /tmp/ccBPKkFg.debug.temp.o
+                                         0xd3 (size before relaxing)
+ .debug_str     0x000000000000168c       0xda /tmp/cceGdLhA.debug.temp.o
+                                        0x3b5 (size before relaxing)
+ .debug_str     0x0000000000001766        0x8 /tmp/cchObkbM.debug.temp.o
+                                         0xd1 (size before relaxing)
+ .debug_str     0x000000000000176e        0x8 /tmp/ccmboOCO.debug.temp.o
+                                         0xd1 (size before relaxing)
+ .debug_str     0x0000000000001776        0xa /tmp/ccoLCmcM.debug.temp.o
+                                         0xd3 (size before relaxing)
+ .debug_str     0x0000000000001780        0xa /tmp/ccjEknom.debug.temp.o
+                                         0xd3 (size before relaxing)
+ .debug_str     0x000000000000178a        0xb /tmp/ccmmlIAM.debug.temp.o
+                                         0xd4 (size before relaxing)
+ .debug_str     0x0000000000001795        0xa /tmp/ccjaEMEO.debug.temp.o
+                                         0xd3 (size before relaxing)
+ .debug_str     0x000000000000179f        0xa /tmp/ccgOebmm.debug.temp.o
+                                         0xd3 (size before relaxing)
+ .debug_str     0x00000000000017a9        0xa /tmp/ccbfcciP.debug.temp.o
+                                         0xd3 (size before relaxing)
+ .debug_str     0x00000000000017b3        0xa /tmp/ccOFCgMb.debug.temp.o
+                                         0xd3 (size before relaxing)
+ .debug_str     0x00000000000017bd        0xa /tmp/ccKpJfGj.debug.temp.o
+                                         0xd3 (size before relaxing)
+ .debug_str     0x00000000000017c7        0xa /tmp/ccdCMcHn.debug.temp.o
+                                         0xd3 (size before relaxing)
+ .debug_str     0x00000000000017d1        0xa /tmp/ccGhiBEK.debug.temp.o
+                                         0xd3 (size before relaxing)
+ .debug_str     0x00000000000017db        0xa /tmp/ccahIpGP.debug.temp.o
+                                         0xd3 (size before relaxing)
+ .debug_str     0x00000000000017e5        0x9 /tmp/ccFCMdGb.debug.temp.o
+                                         0xd2 (size before relaxing)
+ .debug_str     0x00000000000017ee        0xa /tmp/ccJIACnj.debug.temp.o
+                                         0xd3 (size before relaxing)
+ .debug_str     0x00000000000017f8        0x9 /tmp/ccdJpBCh.debug.temp.o
+                                         0xd2 (size before relaxing)
+ .debug_str     0x0000000000001801       0xc2 /tmp/ccHPAdPj.debug.temp.o
+                                        0x323 (size before relaxing)
+ .debug_str     0x00000000000018c3       0xc2 /tmp/ccnCjKCJ.debug.temp.o
+                                         0xd2 (size before relaxing)
+ .debug_str     0x00000000000018c3        0xe /tmp/ccKAKNLO.debug.temp.o
+                                         0xd7 (size before relaxing)
+ .debug_str     0x00000000000018d1        0x9 /tmp/ccdomJem.debug.temp.o
+                                         0xd2 (size before relaxing)
+ .debug_str     0x00000000000018da        0xa /tmp/ccAnaMDE.debug.temp.o
+                                         0xd3 (size before relaxing)
+ .debug_str     0x00000000000018e4        0x8 /tmp/ccagIfMJ.debug.temp.o
+                                         0xd1 (size before relaxing)
+ .debug_str     0x00000000000018ec        0xd /tmp/cchLfNnA.debug.temp.o
+                                         0xd6 (size before relaxing)
+ .debug_str     0x00000000000018f9       0x1c wait.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_addr
+ *(.debug_addr)
+OUTPUT(ComponentTester elf32-avr)
+LOAD linker stubs

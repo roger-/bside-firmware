@@ -34,10 +34,10 @@ Now you should be able to flash it using
 docker run --rm --privileged -v (pwd):/build lpodkalicki/avr-toolchain upload
 ```
 
-# References
-* https://www.eevblog.com/forum/testgear/$20-lcr-esr-transistor-checker-project/
-* https://www.eevblog.com/forum/testgear/bside-esr02-pro-transistor-tester-(teardown-quick-test)/
-
 # Final steps
 
 Make sure your unsolder the wires you used for flashing and recalibrate your unit.
+
+# References
+* https://www.eevblog.com/forum/testgear/$20-lcr-esr-transistor-checker-project/
+* https://www.eevblog.com/forum/testgear/bside-esr02-pro-transistor-tester-(teardown-quick-test)/

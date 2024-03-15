@@ -2,7 +2,7 @@
 #  Makefile
 #
 #  (c) 2012-2023 by Markus Reschke
-#  based on code from Markus Frejek and Karl-Heinz Kübbeler
+#  based on code from Markus Frejek and Karl-Heinz Kï¿½bbeler
 #
 
 PROJECT = ComponentTester
@@ -132,12 +132,13 @@ CFLAGS += -DF_CPU=${FREQ}000000UL
 CFLAGS += -DOSC_STARTUP=${OSC_STARTUP}
 CFLAGS += -gdwarf-2 -std=gnu99 -Os -mcall-prologues
 CFLAGS += -funsigned-char -funsigned-bitfields -fpack-struct -fshort-enums
-#CFLAGS += -flto
+CFLAGS += -flto
+# CFLAGS += -flto -fno-jump-tables
 CFLAGS += -MD -MP -MT $(*F).o -MF dep/$(@F).d
 
 # linker flags
 LDFLAGS = -mmcu=${MCU} -Wl,-Map=${NAME}.map
-#LDFLAGS += -Wl,-relax
+LDFLAGS += -Wl,-relax
 
 # hex file flags
 HEX_FLASH_FLAGS = -R .eeprom -R .fuse -R .lock -R .signature
@@ -198,7 +199,8 @@ $(NAME): ${OBJECTS}
 # output firmware size and other info
 size: ${NAME}
 	@echo
-	@avr-size -C --mcu=${MCU} $<
+	@avr-objdump -Pmem-usage ${NAME}
+#	@avr-size -C --mcu=${MCU} $<
 
 
 #

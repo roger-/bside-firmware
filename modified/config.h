@@ -3,7 +3,7 @@
  *   global configuration, setup and settings
  *
  *   (c) 2012-2023 by Markus Reschke
- *   based on code from Markus Frejek and Karl-Heinz Kübbeler
+ *   based on code from Markus Frejek and Karl-Heinz Kï¿½bbeler
  *
  * ************************************************************************ */
 
@@ -329,7 +329,7 @@
  */
 
 //#define HW_BUZZER
-#define BUZZER_ACTIVE                   /* active buzzer */
+//#define BUZZER_ACTIVE                   /* active buzzer */
 //#define BUZZER_PASSIVE                  /* passive buzzer */
 
 
@@ -421,7 +421,7 @@
  *  - uncomment to enable
  */
 
-//#define SW_ESR_TOOL
+#define SW_ESR_TOOL
 
 
 /*
@@ -568,14 +568,14 @@
 
 /*
  *  DS18S20 - OneWire temperature sensor
- *  - DS18S20_HIGHRES: enable high resolution (0.01°C)
- *    normal resolution is 0.5°C
+ *  - DS18S20_HIGHRES: enable high resolution (0.01ï¿½C)
+ *    normal resolution is 0.5ï¿½C
  *  - uncomment to enable
  *  - also enable ONEWIRE_PROBES or ONEWIRE_IO_PIN (see section 'Busses')
  */
 
 //#define SW_DS18S20
-//#define DS18S20_HIGHRES       /* high resolution (0.01°C) */
+//#define DS18S20_HIGHRES       /* high resolution (0.01ï¿½C) */
 
 
 /*
@@ -604,7 +604,7 @@
  *  - uncomment to enable
  */
 
-//#define SW_CAP_LEAKAGE
+// #define SW_CAP_LEAKAGE
 
 
 /*
@@ -613,7 +613,7 @@
  *  - uncomment to enable
  */
 
-//#define SW_REVERSE_HFE
+#define SW_REVERSE_HFE
 
 
 /*
@@ -623,7 +623,7 @@
  *  - uncomment to enable
  */
 
-//#define SW_HFE_CURRENT
+#define SW_HFE_CURRENT
 
 
 /*
@@ -637,7 +637,7 @@
 //#define SW_MONITOR_R          /* just R */
 //#define SW_MONITOR_C          /* just C plus ESR */
 //#define SW_MONITOR_L          /* just L */
-//#define SW_MONITOR_RCL        /* R plus L, or C plus ESR */
+#define SW_MONITOR_RCL        /* R plus L, or C plus ESR */
 //#define SW_MONITOR_RL         /* R plus L */
 
 
@@ -647,8 +647,8 @@
  *  - uncomment to enable (one or more)
  */
 
-//#define SW_MONITOR_HOLD_ESR   /* auto-hold ESR (C monitor) */
-//#define SW_MONITOR_HOLD_L     /* auto-hold L (L monitor) */
+#define SW_MONITOR_HOLD_ESR   /* auto-hold ESR (C monitor) */
+#define SW_MONITOR_HOLD_L     /* auto-hold L (L monitor) */
 
 
 /*
@@ -666,9 +666,9 @@
  *  - uncomment to enable (one or more)
  */
 
-//#define SW_R_E24_5_T          /* E24 5% tolerance, text */
+#define SW_R_E24_5_T          /* E24 5% tolerance, text */
 //#define SW_R_E24_5_CC         /* E24 5% tolerance, color-code */
-//#define SW_R_E24_1_T          /* E24 1% tolerance, text */
+#define SW_R_E24_1_T          /* E24 1% tolerance, text */
 //#define SW_R_E24_1_CC         /* E24 1% tolerance, color-code */
 //#define SW_R_E96_T            /* E96 1% tolerance, text */
 //#define SW_R_E96_CC           /* E96 1% tolerance, color-code */
@@ -681,8 +681,8 @@
  *  - uncomment to enable (one or more)
  */
 
-//#define SW_C_E6_T             /* E6 20% tolerance, text */
-//#define SW_C_E12_T            /* E12 10% tolerance, text */
+#define SW_C_E6_T             /* E6 20% tolerance, text */
+#define SW_C_E12_T            /* E12 10% tolerance, text */
 
 
 /*
@@ -691,8 +691,8 @@
  *  - uncomment to enable (one or more)
  */
 
-//#define SW_L_E6_T             /* E6 20% tolerance, text */
-//#define SW_L_E12_T            /* E12 10% tolerance, text */
+// #define SW_L_E6_T             /* E6 20% tolerance, text */
+// #define SW_L_E12_T            /* E12 10% tolerance, text */
 
 
 /*
@@ -718,7 +718,7 @@
  *  - uncomment to enable
  */ 
 
-//#define SW_C_VLOSS
+// #define SW_C_VLOSS
 
 
 /*
@@ -726,7 +726,7 @@
  *  - uncomment to enable
  */
 
-//#define SW_PHOTODIODE
+#define SW_PHOTODIODE
 
 
 
@@ -840,7 +840,7 @@
  *  - uncomment to enable
  */
 
-//#define UI_HEX_UPPERCASE
+#define UI_HEX_UPPERCASE
 
 
 /*
@@ -849,7 +849,7 @@
  *  - uncomment to enable
  */
 
-//#define UI_AUTOHOLD
+// #define UI_AUTOHOLD
 
 
 /*
@@ -935,7 +935,7 @@
  *  - uncomment to enable, also adjust timeout (in s)
  */
 
-//#define POWER_OFF_TIMEOUT     60
+#define POWER_OFF_TIMEOUT     60
 
 
 /*
@@ -954,7 +954,7 @@
  *  - uncomment to enable
  */
 
-//#define UI_PINOUT_ALT
+#define UI_PINOUT_ALT
 
 
 /*
@@ -963,7 +963,7 @@
  *  - uncomment to enable
  */
 
-//#define UI_QUESTION_MARK
+#define UI_QUESTION_MARK
 
 
 /*
@@ -972,7 +972,7 @@
  *  - uncomment to enable
  */
 
-//#define UI_ZENER_DIODE
+// #define UI_ZENER_DIODE
 
 
 /*
@@ -981,7 +981,7 @@
  *  - uncomment to enable
  */
 
-//#define UI_QUARTZ_CRYSTAL
+#define UI_QUARTZ_CRYSTAL
 
 
 /*
@@ -1018,7 +1018,7 @@
  *  - uncomment to enable
  */
 
-//#define UI_BATTERY
+#define UI_BATTERY
 
 
 /*
@@ -1026,7 +1026,7 @@
  *  - uncomment to enable
  */
 
-//#define UI_BATTERY_LASTLINE
+// #define UI_BATTERY_LASTLINE
 
 
 /*
@@ -1047,7 +1047,7 @@
  *    (COLOR_PROBE_1, COLOR_PROBE_2 and COLOR_PROBE_3)
  */
 
-#define UI_PROBE_COLORS
+//#define UI_PROBE_COLORS
 
 
 /*
@@ -1104,7 +1104,7 @@
  *  - uncomment to enable
  */
 
-//#define SW_POWER_OFF
+#define SW_POWER_OFF
 
 
 /*
@@ -1127,7 +1127,7 @@
 /*
  *  Round some values if appropriate.
  *  - for
- *    - DS18B20 (0.1 °C/F)
+ *    - DS18B20 (0.1 ï¿½C/F)
  *  - uncomment to enable
  */
 
@@ -1140,7 +1140,7 @@
  *  - uncomment to enable
  */
 
-//#define UI_CENTER_ALIGN
+#define UI_CENTER_ALIGN
 
 
 /*
@@ -1206,7 +1206,7 @@
  *  - uncomment to enable
  */
 
-//#define BAT_EXT_UNMONITORED
+#define BAT_EXT_UNMONITORED
 
 
 /*
@@ -1216,8 +1216,8 @@
  *  - standard values are: R1=10k, R2=3.3k
  */
 
-#define BAT_R1           10000
-#define BAT_R2           3300
+#define BAT_R1          47000// 10000
+#define BAT_R2          47000// 3300
 
 
 /*
@@ -1226,9 +1226,9 @@
  *  - or any other circuitry in the power section
  *  - Get your DMM and measure the voltage drop!
  *  - Schottky diode about 200mV / PNP BJT about 100mV.
- */  
+ */
 
-#define BAT_OFFSET       290
+#define BAT_OFFSET      420// 290
 
 
 /*
@@ -1361,9 +1361,9 @@
  *  Correction factors for capacitors (in 0.1%)
  *  - positive factor increases capacitance value
  *    negative factor decreases capacitance value
- *  - CAP_FACTOR_SMALL for caps < 4.7µF
- *  - CAP_FACTOR_MID for caps 4.7 - 47µF
- *  - CAP_FACTOR_LARGE for caps > 47µF
+ *  - CAP_FACTOR_SMALL for caps < 4.7ï¿½F
+ *  - CAP_FACTOR_MID for caps 4.7 - 47ï¿½F
+ *  - CAP_FACTOR_LARGE for caps > 47ï¿½F
  */
 
 #define CAP_FACTOR_SMALL      0      /* no correction */ 

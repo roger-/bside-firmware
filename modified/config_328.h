@@ -11,6 +11,51 @@
 /* source management */
 #define CONFIG_328_H
 
+/*#define HW_REF25
+
+#define BAT_DIVIDER
+#define BAT_EXT_UNMONITORED
+#define BAT_R1 47000
+#define BAT_R2 47000
+#define BAT_OFFSET 420*/
+
+#define LCD_ST7565R /* display controller ST7565R */
+#define LCD_GRAPHIC /* graphic display */
+#define LCD_SPI /* SPI interface */
+#define LCD_PORT PORTD /* port data register */
+#define LCD_DDR DDRD /* port data direction register */
+#define LCD_RESET PD0 /* port pin used for /RES (optional) */
+#define LCD_A0 PD1 /* port pin used for A0 */
+#define LCD_SCL PD2 /* port pin used for SCL */
+#define LCD_SI PD3 /* port pin used for SI (LCD’s data input) */
+#define LCD_DOTS_X 128 /* number of horizontal dots */
+#define LCD_DOTS_Y 64 /* number of vertical dots */
+#define LCD_OFFSET_X /* enable x offset of 4 dots */
+#define LCD_FLIP_X /* enable horizontal flip */
+#define LCD_FLIP_Y /* enable vertical flip */
+#define LCD_START_Y 0 /* start line (0-63) */
+#define LCD_CONTRAST 15 /* default contrast (0-63) */
+#define FONT_8X8_VF /* 8x8 font */
+#define SYMBOLS_24X24_VFP /* 24x24 symbols */
+#define SPI_BITBANG /* bit-bang SPI */
+#define SPI_PORT LCD_PORT /* SPI port data register */
+#define SPI_DDR LCD_DDR /* SPI port data direction register */
+#define SPI_SCK LCD_SCL /* port pin used for SCK */
+#define SPI_MOSI LCD_SI /* port pin used for MOSI */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* ************************************************************************
@@ -625,7 +670,7 @@
  *  - uses LCD_CS to support rotary encoder in parallel at PD2/3
  */
 
-//#if 0
+#if 0
 #define LCD_ST7565R                     /* display controller ST7565R */
 #define LCD_GRAPHIC                     /* graphic display */
 #define LCD_SPI                         /* SPI interface */
@@ -668,7 +713,7 @@
 #define SPI_DDR          LCD_DDR        /* SPI port data direction register */
 #define SPI_SCK          LCD_SCL        /* port pin used for SCK */
 #define SPI_MOSI         LCD_SI         /* port pin used for MOSI */
-//#endif
+#endif
 
 
 

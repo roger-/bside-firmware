@@ -1,3 +1,5 @@
+**NOTE**: This is a WIP, things don't work perfectly.
+
 # Overview
 
 Here's a quick guide to updating the BSIDE ESR02 Pro component tester firmware to version 1.51m.

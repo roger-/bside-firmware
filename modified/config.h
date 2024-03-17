@@ -393,7 +393,7 @@
  *  - uncomment to enable
  */
 
-//#define PWM_SHOW_DURATION
+#define PWM_SHOW_DURATION
 
 
 /*
@@ -429,7 +429,7 @@
  *  - uncomment to enable
  */
 
-//#define SW_ENCODER
+#define SW_ENCODER
 
 
 /*
@@ -449,7 +449,7 @@
  *  - uncomment to enable
  */
 
-#define SW_IR_RECEIVER
+// #define SW_IR_RECEIVER
 
 
 /*
@@ -604,7 +604,7 @@
  *  - uncomment to enable
  */
 
-// #define SW_CAP_LEAKAGE
+#define SW_CAP_LEAKAGE
 
 
 /*
@@ -634,8 +634,8 @@
  *  - uncomment to enable (one or more)
  */
 
-//#define SW_MONITOR_R          /* just R */
-//#define SW_MONITOR_C          /* just C plus ESR */
+// #define SW_MONITOR_R          /* just R */
+#define SW_MONITOR_C          /* just C plus ESR */
 //#define SW_MONITOR_L          /* just L */
 #define SW_MONITOR_RCL        /* R plus L, or C plus ESR */
 //#define SW_MONITOR_RL         /* R plus L */
@@ -670,7 +670,7 @@
 //#define SW_R_E24_5_CC         /* E24 5% tolerance, color-code */
 #define SW_R_E24_1_T          /* E24 1% tolerance, text */
 //#define SW_R_E24_1_CC         /* E24 1% tolerance, color-code */
-//#define SW_R_E96_T            /* E96 1% tolerance, text */
+// #define SW_R_E96_T            /* E96 1% tolerance, text */
 //#define SW_R_E96_CC           /* E96 1% tolerance, color-code */
 //#define SW_R_E96_EIA96        /* E96 1% tolerance, EIA-96 code */
 
@@ -691,8 +691,8 @@
  *  - uncomment to enable (one or more)
  */
 
-// #define SW_L_E6_T             /* E6 20% tolerance, text */
-// #define SW_L_E12_T            /* E12 10% tolerance, text */
+#define SW_L_E6_T             /* E6 20% tolerance, text */
+#define SW_L_E12_T            /* E12 10% tolerance, text */
 
 
 /*
@@ -718,7 +718,7 @@
  *  - uncomment to enable
  */ 
 
-// #define SW_C_VLOSS
+#define SW_C_VLOSS
 
 
 /*
@@ -913,7 +913,7 @@
  *  - Time between displaying the result and starting a new probing cycle.
  */
 
-#define CYCLE_DELAY      3000
+#define CYCLE_DELAY      15000
 
 
 /*
@@ -972,7 +972,7 @@
  *  - uncomment to enable
  */
 
-// #define UI_ZENER_DIODE
+#define UI_ZENER_DIODE
 
 
 /*

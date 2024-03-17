@@ -3,7 +3,7 @@
  *   ATmega 328 specific global configuration, setup and settings
  *
  *   (c) 2012-2023 by Markus Reschke
- *   based on code from Markus Frejek and Karl-Heinz Kübbeler
+ *   based on code from Markus Frejek and Karl-Heinz Kï¿½bbeler
  *
  * ************************************************************************ */
 
@@ -35,27 +35,13 @@
 #define LCD_FLIP_Y /* enable vertical flip */
 #define LCD_START_Y 0 /* start line (0-63) */
 #define LCD_CONTRAST 15 /* default contrast (0-63) */
-#define FONT_8X8_VF /* 8x8 font */
+#define FONT_8X8_WIN1251_VF //FONT_8X8_VF /* 8x8 font */
 #define SYMBOLS_24X24_VFP /* 24x24 symbols */
 #define SPI_BITBANG /* bit-bang SPI */
 #define SPI_PORT LCD_PORT /* SPI port data register */
 #define SPI_DDR LCD_DDR /* SPI port data direction register */
 #define SPI_SCK LCD_SCL /* port pin used for SCK */
 #define SPI_MOSI LCD_SI /* port pin used for MOSI */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* ************************************************************************
@@ -174,7 +160,7 @@
 #define LCD_OFFSET_X      32            /* x offset of 32 dots (160-128) */
 //#define LCD_FLIP_X                      /* enable horizontal flip */
 #define LCD_FLIP_Y                      /* enable vertical flip */
-#define LCD_ROTATE                      /* switch X and Y (rotate by 90°) */
+#define LCD_ROTATE                      /* switch X and Y (rotate by 90ï¿½) */
 #define LCD_BGR                         /* reverse red and blue color channels */
 //#define LCD_LATE_ON                     /* turn on LCD after clearing it */
 /* font and symbols: horizonally aligned & flipped */
@@ -226,7 +212,7 @@
 #define LCD_DOTS_Y       240            /* number of vertical dots */
 //#define LCD_FLIP_X                      /* enable horizontal flip */
 //#define LCD_FLIP_Y                      /* enable vertical flip */
-//#define LCD_ROTATE                      /* switch X and Y (rotate by 90°) */
+//#define LCD_ROTATE                      /* switch X and Y (rotate by 90ï¿½) */
 //#define LCD_BGR                         /* reverse red and blue color channels */
 //#define LCD_EXT_CMD_OFF                 /* extended commands disabled */
 /* font and symbols: horizontally aligned & flipped */
@@ -250,7 +236,7 @@
 /*
  *  PCD8544
  *  - SPI interface using bit-bang SPI
- *  - for a 180° rotated display (LCD_ROT180)
+ *  - for a 180ï¿½ rotated display (LCD_ROT180)
  *    - comment out "_VF" font and "_VFP" symbols
  *    - uncomment "_V_F" font and "_VP_F" symbols
  */
@@ -277,7 +263,7 @@
 #define SYMBOLS_24X24_VFP               /* 24x24 symbols */
 //#define SYMBOLS_24X24_ALT1_VFP          /* 24x24 alternative symbols #1 */
 //#define SYMBOLS_24X24_ALT2_VFP          /* 24x24 alternative symbols #2 */
-//#define LCD_ROT180                      /* rotate output by 180° (not supported yet) */
+//#define LCD_ROT180                      /* rotate output by 180ï¿½ (not supported yet) */
 /* font and symbols: vertically aligned, bank-wise grouping, hor. flipped */
 //#define FONT_6X8_V_F                    /* 6x8 font */
 //#define FONT_6X8_ISO8859_2_V_F          /* 6x8 Central Euopean font */
@@ -742,7 +728,7 @@
 //#define LCD_OFFSET_Y     2               /* enable y offset of 1 or 2 dots */
 //#define LCD_FLIP_X                      /* enable horizontal flip */
 #define LCD_FLIP_Y                      /* enable vertical flip */
-#define LCD_ROTATE                      /* switch X and Y (rotate by 90°) */
+#define LCD_ROTATE                      /* switch X and Y (rotate by 90ï¿½) */
 //#define LCD_BGR                         /* reverse red and blue color channels */
 //#define LCD_LATE_ON                     /* turn on LCD after clearing it */
 /* font and symbols: horizontally aligned & flipped */
@@ -773,7 +759,7 @@
 /*
  *  ST7920
  *  - SPI interface using bit-bang SPI
- *  - for a 180° rotated display (LCD_ROT180)
+ *  - for a 180ï¿½ rotated display (LCD_ROT180)
  *    - comment out "_H" font and symbols
  *    - uncomment "_HF" font and symbols
  */
@@ -798,7 +784,7 @@
 #define SYMBOLS_24X24_H                 /* 24x24 symbols */
 //#define SYMBOLS_24X24_ALT1_H            /* alternative 24x24 symbols #1 */
 //#define SYMBOLS_24X24_ALT2_H            /* alternative 24x24 symbols #2 */
-//#define LCD_ROT180                      /* rotate output by 180° */
+//#define LCD_ROT180                      /* rotate output by 180ï¿½ */
 /* font and symbols: horizonally aligned & flipped */
 //#define FONT_8X8_HF                     /* 8x8 font */
 //#define FONT_8X8_ISO8859_2_HF           /* 8x8 Central European font */
@@ -819,7 +805,7 @@
  *  ST7920
  *  - 4 bit parallel interface
  *  - if you change LCD_DB4/5/6/7 comment out LCD_DB_STD!
- *  - for a 180° rotated display (LCD_ROT180)
+ *  - for a 180ï¿½ rotated display (LCD_ROT180)
  *    - comment out "_H" font and symbol
  *    - uncomment "_HF" font and symbol
  */
@@ -848,7 +834,7 @@
 #define SYMBOLS_24X24_H                 /* 24x24 symbols */
 //#define SYMBOLS_24X24_ALT1_H            /* alternative 24x24 symbols #1 */
 //#define SYMBOLS_24X24_ALT2_H            /* alternative 24x24 symbols #2 */
-//#define LCD_ROT180                      /* rotate output by 180° */
+//#define LCD_ROT180                      /* rotate output by 180ï¿½ */
 /* font and symbols: horizonally aligned & flipped */
 //#define FONT_8X8_HF                     /* 8x8 font */
 //#define SYMBOLS_24X24_HF                /* 24x24 symbols */

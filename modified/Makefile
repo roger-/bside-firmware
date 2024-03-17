@@ -132,13 +132,13 @@ CFLAGS += -DF_CPU=${FREQ}000000UL
 CFLAGS += -DOSC_STARTUP=${OSC_STARTUP}
 CFLAGS += -gdwarf-2 -std=gnu99 -Os -mcall-prologues
 CFLAGS += -funsigned-char -funsigned-bitfields -fpack-struct -fshort-enums
-CFLAGS += -flto
-# CFLAGS += -flto -fno-jump-tables
+#CFLAGS += -flto
+#CFLAGS += -flto -fno-jump-tables
 CFLAGS += -MD -MP -MT $(*F).o -MF dep/$(@F).d
 
 # linker flags
 LDFLAGS = -mmcu=${MCU} -Wl,-Map=${NAME}.map
-LDFLAGS += -Wl,-relax
+#LDFLAGS += -Wl,-relax
 
 # hex file flags
 HEX_FLASH_FLAGS = -R .eeprom -R .fuse -R .lock -R .signature

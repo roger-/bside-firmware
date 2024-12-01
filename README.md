@@ -40,6 +40,8 @@ docker run --rm --privileged -v (pwd):/build lpodkalicki/avr-toolchain upload
 
 Make sure your unsolder the wires you used for flashing and recalibrate your unit.
 
+**Note**: for some reason after flashing, my unit would read large capacitances and showed odd behaviour. After leaving it alone for day these issues went away, strangely. 
+
 # References
 * https://www.eevblog.com/forum/testgear/$20-lcr-esr-transistor-checker-project/
 * https://www.eevblog.com/forum/testgear/bside-esr02-pro-transistor-tester-(teardown-quick-test)/
